@@ -2,7 +2,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    background-color: #f4f4f4; /* Default Gray */
+    background-color: #FFFFFF; /* Default Gray */
 }
 
 /* SHARED STYLES: All boxes get these rules */
@@ -19,16 +19,16 @@ body {
 
 /* 1. Primary Color */
 .primary {
-    background-color: #000000; /* CHANGE THIS */
+    background-color: #6FBF73; /* CHANGE THIS */
 }
 
 /* 2. Accent Color */
 .accent {
-    background-color: #555555; /* CHANGE THIS */
+    background-color:  #D9D9D9; /* CHANGE THIS */
 }
 
 /* 3. Text/Light Color */
 .text {
-    background-color: #ffffff; /* CHANGE THIS */
+    background-color: #FFFFFF; /* CHANGE THIS */
     color: black; /* Dark text for light background */
 }
