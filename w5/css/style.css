@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* 1. THE BASE COMPONENT: This targets BOTH boxes */
+.card {
+    background-color: #FFFFFF; /* CHANGE TO: Your Text/Background color */
+    color: #000000;
+    border-width: 5px;
+    border-style: solid;
+    padding: 40px; 
+}
+
+/* 2. THE MODIFIERS: These give each box a unique border color */
+.box-a {
+    border-color: #6FBF73; /* CHANGE TO: Your Primary color */
+    margin-bottom: 50px;
+}
+
+.box-b {
+    border-color: #3FA136; /* CHANGE TO: Your Accent color */
+    border-radius: 30px;
+}
