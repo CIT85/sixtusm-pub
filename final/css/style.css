@@ -64,11 +64,28 @@ header {
     align-items: center;
     gap: 20px;
 }
+/* .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+header {
+    padding-inline: 20px;
+}
+
 .header-wrapper {
+    max-inline-size: none;
+    margin-inline: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+header img {
+    height: 80px;
+}
+
 .primary-navigation ul {
     display: flex;
     list-style: none;
@@ -232,6 +249,45 @@ section.cta-box p {
     flex-direction: column;
     justify-content: center;
 } */
+
+.two-column-layout figure {
+    margin: 0;
+}
+
+.two-column-layout img {
+    width: 90%;
+    max-width: 100 auto;
+     text-align: flex;
+}
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 10px;
+    border-top: 1px solid #6FBF73;
+    padding-top: 10px;
+    color: #555555;
+}
+
+/* .header-wrapper {
+    max-inline-size: none;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.wellness-title {
+    font-size: 2.5rem;
+}
+
+/* .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+} */
+
+
+
 
 .nutrition-list {
     text-align: left;
