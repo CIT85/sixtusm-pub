@@ -279,6 +279,25 @@ figcaption {
     font-size: 2.5rem;
 }
 
+.compact-hero {
+    min-height: 30vh;
+    padding-block: 10vh 2.5vh;
+    background-image: linear-gradient(rgba(0,0,0,0.16), rgba(0,0,0,0.55)), url(../images/new-nutrition.webp);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #E8F5E9;
+}
+.hero-section h2 {
+    color: #E8F5E9;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    font-size: 3rem;
+}
+.compact-hero h1 {
+    color: #FFFFFF;
+}
+
+
 /* .header-wrapper {
     display: flex;
     justify-content: space-between;
