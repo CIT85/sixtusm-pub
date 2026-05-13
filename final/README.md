@@ -86,7 +86,7 @@ Nesting the media query inside the related selector keeps the responsive code cl
 
 I created two subpages called Motivation and Confidence and Healthy Nutrition. These pages are deep dives connected to topics already discussed on my main website pages.
 
-The **Motivation and Confidence page** relates to the Wellness page because wellness journeys often require encouragement, consistency, and confidence-building. I linked this subpage through the "health"  text inside the wellness content so users can explore the topic in more detail.
+The **Motivation and Confidence page** relates to the Wellness page because wellness journeys often require encouragement, consistency, and confidence-building. I linked this subpage through the "health and confidence"  text inside the wellness content so users can explore the topic in more detail.
 
 The **Healthy Nutrition page** relates to the Tip page because healthy eating habits and balanced nutrition are important wellness tips. I linked this subpage through the “Healthy routines” text inside the tips content to create a deeper discussion about nutrition and healthy lifestyle choices.
 

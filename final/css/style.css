@@ -212,6 +212,37 @@ section.cta-box p {
     text-decoration: underline;
 }
 
+.nutrition-grid {
+    display: grid;
+    gap: 2rem;
+
+    @media (width > 700px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+.nutrition-grid h2 {
+    grid-column: 1 / -1;
+}
+
+/* .nutrition-grid article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.nutrition-list {
+    text-align: left;
+    padding-inline-start: 20px;
+}
+
+.nutrition-list li::marker {
+    content: "✔ ";
+    color: #3FA136;
+}
+
 .cta-heading {
     text-align: center;
     color: black;
