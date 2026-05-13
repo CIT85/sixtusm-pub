@@ -16,6 +16,17 @@ body {
     line-height: 1.6;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
 /* Heading */
 h1 {
 
@@ -53,7 +64,11 @@ header {
     align-items: center;
     gap: 20px;
 }
-
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .primary-navigation ul {
     display: flex;
     list-style: none;
@@ -75,6 +90,15 @@ header {
 .primary-navigation a:hover,
 .primary-navigation a:focus-visible {
     color: #5f9b9f;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    margin-inline: auto;
 }
 
 
@@ -181,6 +205,11 @@ section.cta-box p {
         grid-template-columns: 1fr 1fr;
 
     }
+}
+
+.active-page {
+    color: #3FA136;
+    text-decoration: underline;
 }
 
 .cta-heading {
