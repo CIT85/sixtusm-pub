@@ -224,7 +224,7 @@ section.cta-box p {
     }
 }
 
-.active-page {
+.primary-navigation .active-page {
     color: #3FA136;
     text-decoration: underline;
 }
@@ -282,7 +282,7 @@ figcaption {
 .compact-hero {
     min-height: 30vh;
     padding-block: 10vh 2.5vh;
-    background-image: linear-gradient(rgba(0,0,0,0.16), rgba(0,0,0,0.55)), url(../images/new-nutrition.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.16), rgba(0,0,0,0.55)), url(../images/new-energy.webp);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -294,7 +294,9 @@ figcaption {
     font-size: 3rem;
 }
 .compact-hero h1 {
-    color: #FFFFFF;
+    color: #E8F5E9;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    font-size: 3rem;
 }
 
 
